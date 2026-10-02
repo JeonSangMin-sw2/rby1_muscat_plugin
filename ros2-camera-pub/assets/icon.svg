@@ -1,0 +1,45 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="36" y1="28" x2="220" y2="228" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#5B21B6"/>
+    </linearGradient>
+    <linearGradient id="grape" x1="92" y1="74" x2="168" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8B4FE"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="224" height="224" rx="52" fill="url(#bg)"/>
+
+  <!-- plugin brackets -->
+  <path d="M72 84H56C47.1634 84 40 91.1634 40 100V116" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M184 84H200C208.837 84 216 91.1634 216 100V116" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M72 172H56C47.1634 172 40 164.837 40 156V140" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M184 172H200C208.837 172 216 164.837 216 156V140" stroke="white" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- grape stem + leaf -->
+  <path d="M128 73C128 59 137 48 151 44" stroke="#F3E8FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M142 51C151 39 169 39 179 50C165 60 151 62 142 51Z" fill="#C4B5FD"/>
+
+  <!-- muscat grape cluster -->
+  <circle cx="106" cy="91" r="18" fill="url(#grape)"/>
+  <circle cx="132" cy="88" r="18" fill="url(#grape)"/>
+  <circle cx="158" cy="91" r="18" fill="url(#grape)"/>
+  <circle cx="94" cy="119" r="18" fill="url(#grape)"/>
+  <circle cx="120" cy="116" r="18" fill="url(#grape)"/>
+  <circle cx="146" cy="116" r="18" fill="url(#grape)"/>
+  <circle cx="172" cy="119" r="18" fill="url(#grape)"/>
+  <circle cx="107" cy="145" r="18" fill="url(#grape)"/>
+  <circle cx="133" cy="144" r="18" fill="url(#grape)"/>
+  <circle cx="159" cy="145" r="18" fill="url(#grape)"/>
+  <circle cx="120" cy="170" r="18" fill="url(#grape)"/>
+  <circle cx="146" cy="170" r="18" fill="url(#grape)"/>
+  <circle cx="133" cy="193" r="18" fill="url(#grape)"/>
+
+  <!-- center plugin glyph -->
+  <path d="M122 119V109C122 103.477 126.477 99 132 99H136C141.523 99 146 103.477 146 109V119" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <rect x="116" y="118" width="36" height="34" rx="10" fill="white"/>
+  <path d="M127 152V163" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <path d="M141 152V163" stroke="white" stroke-width="8" stroke-linecap="round"/>
+</svg>

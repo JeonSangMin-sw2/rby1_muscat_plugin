@@ -1,0 +1,34 @@
+{
+  "id": "com.example.ros2-camera-pub",
+  "name": "Ros2 Camera Pub",
+  "version": "1.0.0",
+  "minMuscatVersion": "1.0.0",
+  "author": "sangmin.jeon",
+  "email": "sangmin.jeon@rainbow-robotics.com",
+  "description": {
+    "en": "camera_img to topic"
+  },
+  "icons": "assets/icon.svg",
+  "targetModels": "all",
+  "targetCategorys": "all",
+  "contributes": [
+    {
+      "point": "toolbar",
+      "icon": "assets/icon.svg",
+      "label": {
+        "ko": "Ros2 Camera Pub",
+        "en": "Ros2 Camera Pub"
+      },
+      "ui": "content",
+      "opens": "popover"
+    }
+  ],
+  "variables": [],
+  "runtime": {
+    "type": "ros2",
+    "rosClient": "rclcpp",
+    "package": "ros2_camera_pub",
+    "launch": "ros2_camera_pub_node"
+  },
+  "installedSize": 75247091
+}

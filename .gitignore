@@ -1,0 +1,10 @@
+# Build output of every plugin (each plugin also has its own .gitignore)
+node_modules/
+dist/
+*.zip
+.muscat-dev/
+.venv/
+ros2_ws/build*/
+ros2_ws/install*/
+ros2_ws/log/
+cpp/build*/

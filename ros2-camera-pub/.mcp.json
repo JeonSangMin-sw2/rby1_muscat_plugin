@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "muscat": {
+      "command": "muscat-pk",
+      "args": ["mcp"]
+    }
+  }
+}
